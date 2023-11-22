@@ -1,9 +1,4 @@
-/*
- * queueConfig.h
- *
- *  Created on: Nov 22, 2023
- *      Author: pc
- */
+
 
 #ifndef MAIN_QUEUECONFIG_H_
 #define MAIN_QUEUECONFIG_H_
@@ -18,10 +13,10 @@ typedef struct
 {
     uint32_t index;
     char *content;
-} lyric_t;
+} code_t;
 // this function is create a object
-// In this lab "object" is a lyric
-lyric_t create_lyric(uint32_t input_index, char *input_content);
+// In this lab "object" is a code
+code_t create_code(uint32_t input_index, char *input_content);
 
 
 #endif /* MAIN_QUEUECONFIG_H_ */
